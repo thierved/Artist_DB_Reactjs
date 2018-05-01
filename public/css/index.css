@@ -1,0 +1,74 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eaeaea;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.banner .main_cover {
+    background: url('../images/cover.png');
+    height: 465px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+}
+
+.banner .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 43px;
+    height: 62px;
+}
+
+.banner span{
+    display: block;
+    background: #2196f3;
+    height: 20px;
+}
+
+.artist_list {
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+
+.artist_list .artist {
+    display: block;
+    height: 290px;
+    background-size: cover !important;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.artist_list .artist div {
+    background-color: #2196f3;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+
+.artist_list h4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+
+
+
+
+
