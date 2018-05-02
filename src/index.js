@@ -11,7 +11,7 @@ const App = () => {
         <BrowserRouter>
             <div>
                 <Route exact path="/" component={ Home }/>
-                <Route path="/artist/:artistid"/>
+                <Route path="/artist/:artistid" component={ Artist }/>
             </div>
         </BrowserRouter>
     );
